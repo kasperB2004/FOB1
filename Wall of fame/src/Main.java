@@ -7,6 +7,7 @@ public class Main {
         scoreBoard.voegScoreToe(80, "Charlie");
         scoreBoard.voegScoreToe(200, "David");
         scoreBoard.voegScoreToe(120, "Eva");
+        scoreBoard.printHallOfFame();
         scoreBoard.voegScoreToe(90, "Frank");
         scoreBoard.voegScoreToe(300, "Grace");
         scoreBoard.voegScoreToe(180, "Hank");

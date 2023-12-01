@@ -4,7 +4,7 @@ import java.util.Random;
 public class FrequentieTabel {
     private  int bovengrens;
     private  int ondergrens;
-    private  int[] tabel;
+    private  final int[] tabel;
 
     public FrequentieTabel(int bovengrens,int ondergrens, int length){
 
@@ -33,6 +33,7 @@ public class FrequentieTabel {
     }
     public int[] getFrequentieTabel(){
         int[] freguentieTabel = new int[bovengrens - ondergrens+1];
+
         for(int i = 0; i < tabel.length ; i++){
             int index = tabel[i] - ondergrens;
             freguentieTabel[index]++;
